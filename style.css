@@ -272,7 +272,17 @@ footer {
         font-size: 2rem;
         margin-left: 5%;
     }
-    
+
+    .link-content {
+        display: block;
+        list-style: none;
+        position: absolute;
+        top: 0%;
+        left: 70%;
+        width: 100%;
+        visibility: hidden;
+        overflow: hidden;
+    }
     
     .img-btn {
         background-color: rgba(0, 0, 0, 0);
@@ -304,17 +314,6 @@ footer {
 
     .arrow {
         width: 30px;
-    }
-    
-    .link-content {
-        display: block;
-        list-style: none;
-        position: absolute;
-        top: 0%;
-        left: 70%;
-        width: 100%;
-        visibility: hidden;
-        overflow: hidden;
     }
     
     .link-content li {
