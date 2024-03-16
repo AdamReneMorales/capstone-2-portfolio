@@ -314,7 +314,7 @@ footer {
         left: 70%;
         width: 100%;
         visibility: hidden;
-        overflow: visible;
+        overflow: hidden;
     }
     
     .link-content li {
