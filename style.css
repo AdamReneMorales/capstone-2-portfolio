@@ -278,7 +278,6 @@ footer {
         background-color: rgba(0, 0, 0, 0);
         border: none;
         pointer-events: auto;
-        touch-action: auto;
         pointer: course;
         visibility: visible;
         height: 50px; 
