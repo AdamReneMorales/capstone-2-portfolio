@@ -44,14 +44,14 @@ body {
     width: 100%;
     align-items: flex-end;
 }
-
+/*
 .links {
     width: 100%;
     height: 200px;
     display: flex;
     align-items: flex-end;
 }
-   
+*/   
 
 .link-content {
     display:flex;
@@ -67,12 +67,12 @@ body {
     text-decoration: none;
     letter-spacing: 3px;
 }
-
+/*
 .links a {
     color: white;
     text-decoration: none;
 }
-
+*/
 .resume {
     animation: fadeInAnimation ease 1s;
     animation-delay: 3s;
@@ -95,6 +95,11 @@ body {
     animation: fadeInAnimation ease 1s;
     animation-delay: 6s;
     animation-fill-mode: both;
+}
+
+.resume > a, .projects > a, .about > a, .contact > a {
+    color: white;
+    text-decoration: none;
 }
 
 .img-btn {
